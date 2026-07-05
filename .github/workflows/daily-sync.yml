@@ -31,7 +31,7 @@ jobs:
             -e GOOGLE_API_KEY="${{ secrets.GOOGLE_API_KEY }}" \
             -e FILE_SEARCH_STORE_DISPLAY_NAME="${{ secrets.FILE_SEARCH_STORE_DISPLAY_NAME }}" \
             -e CHAT_MODEL="gemini-2.5-flash" \
-            -e MAX_ARTICLES="0" \
+            -e MAX_ARTICLES="30" \
             -e STATE_FILE="/data/state.json" \
             -e ARTICLES_DIR="/data/articles" \
             -v "$PWD/data:/data" \

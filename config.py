@@ -10,4 +10,4 @@ class Config:
     CHAT_MODEL = os.environ.get("CHAT_MODEL", "gemini-2.5-flash")
     ARTICLES_DIR = os.environ.get("ARTICLES_DIR", "articles")
     STATE_FILE = os.environ.get("STATE_FILE", "state.json")
-    MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", "0"))
+    MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", "30"))

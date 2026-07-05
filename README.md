@@ -28,27 +28,14 @@ python main.py --ask "How to i connect Zoom Rooms to OptiSigns Digital Signage?"
 
 ```bash
 docker build -t alpha-project .
-docker run --rm --env-file .env alpha-project
+docker run --rm --env-file .env alpha-project 
+or 
+docker run --rm --env-file .env alpha-project --ask "How do I connect Zoom Rooms to OptiSigns Digital Signage?"
 ```
-
-For cloud jobs with persistent state:
-
-```bash
-docker run --rm \
-  -e GOOGLE_API_KEY=... \
-  -e SOURCE_API_URL=... \
-  -e FILE_SEARCH_STORE_DISPLAY_NAME=... \
-  -e STATE_FILE=/data/state.json \
-  -e ARTICLES_DIR=/data/articles \
-  -v "$(pwd)/data:/data" \
-  kb-sync
-```
-
-The container runs `python main.py` once, logs the sync summary, and exits.
 
 ## Daily Schedule
 
-
+[text](https://github.com/trtrnguyen14104/my-alpha-mini-project/actions/runs/28732846949/job/85201597237)
 
 ## Screenshot
 
