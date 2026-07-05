@@ -27,8 +27,8 @@ python main.py --ask "How to i connect Zoom Rooms to OptiSigns Digital Signage?"
 ## Docker
 
 ```bash
-docker build -t kb-sync .
-docker run --rm --env-file .env kb-sync
+docker build -t alpha-project .
+docker run --rm --env-file .env alpha-project
 ```
 
 For cloud jobs with persistent state:
