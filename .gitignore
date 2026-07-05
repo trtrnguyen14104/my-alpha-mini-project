@@ -1,4 +1,8 @@
 env
+.env
 __pycache__/
 *.py[cod]
 *.pyo
+articles/
+state.json
+state.json.tmp

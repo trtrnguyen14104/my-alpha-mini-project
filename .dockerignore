@@ -1,0 +1,13 @@
+env/
+.env
+.git/
+__pycache__/
+*.pyc
+*.pyo
+articles/
+state.json
+state.json.tmp
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+README.md
